@@ -1,5 +1,6 @@
 {
   "name": "todo-app",
+  "homepage": "https://username.github.io/Task-Done",
   "private": true,
   "version": "0.0.0",
   "type": "module",
