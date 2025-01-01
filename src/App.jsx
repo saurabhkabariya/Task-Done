@@ -123,13 +123,13 @@ function App() {
                     <div className="btns flex h-full">
                       <button
                         onClick={(e) => handleEdit(e, item.id)}
-                        className="bg-violet-800 hover:bg-violet-950 p-2 py-1 text-sm font-bold cursor-pointer text-white rounded-md mx-1"
+                        className="bg-violet-700 hover:bg-violet-950 p-2 py-1 text-sm font-bold cursor-pointer text-white rounded-md mx-1"
                       >
                         <CiEdit />
                       </button>
                       <button
                         onClick={(e) => handleDelete(e, item.id)}
-                        className="bg-violet-800 hover:bg-violet-950 p-2 py-1 text-sm font-bold cursor-pointer text-white rounded-md mx-1"
+                        className="bg-violet-700 hover:bg-violet-950 p-2 py-1 text-sm font-bold cursor-pointer text-white rounded-md mx-1"
                       >
                         <MdDelete />
                       </button>
